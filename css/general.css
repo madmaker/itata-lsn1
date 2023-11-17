@@ -1,0 +1,30 @@
+html, body {
+    font-family: "DIN Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+h1,h2 {
+    border-bottom: solid black 2px;"
+}
+img.screen {
+    max-width: 100%;
+    margin:0 auto;
+}
+div.img-label {
+    text-align: center;
+    color: #3d3d3d;
+    font-size: 0.8em;
+}
+a,
+a:focus,
+a:visited {
+    color: #1583ce;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all ease-in 200ms;
+}
+a:hover {
+    border-bottom-color: black;
+    color: black;
+}
