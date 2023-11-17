@@ -1,11 +1,21 @@
+@import url(../fonts/DINPro/stylesheet.css);
+@import url(../fonts/fontello-451ee211/css/fontello.css);
+
+
 html, body {
     font-family: "DIN Pro", sans-serif;
     margin: 0;
     padding: 0;
     font-size: 20px;
 }
-h1,h2 {
-    border-bottom: solid black 2px;"
+h2 {
+    padding-bottom: 0.2em;
+    border-bottom: 2px solid #c5c5c5;
+}
+main,header {
+    margin: 0 auto;
+    max-width: 950px;
+    padding:2em;
 }
 img.screen {
     max-width: 100%;
