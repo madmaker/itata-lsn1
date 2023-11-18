@@ -18,7 +18,9 @@ main,header {
 img.screen {
     display: table;
     max-width: 100%;
-    margin:0 auto;
+    border: solid #444444 2px;
+    box-shadow: #444444 0 0 1em;
+    margin: 2em auto 0.5em auto;
 }
 div.img-label {
     text-align: center;
@@ -37,11 +39,11 @@ a:hover {
     border-bottom-color: black;
     color: black;
 }
-ul {
+header ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-li {
+header li {
     margin: 0.5em 0;
 }
