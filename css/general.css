@@ -1,6 +1,4 @@
 @import url(../fonts/DINPro/stylesheet.css);
-@import url(../fonts/fontello-451ee211/css/fontello.css);
-
 
 html, body {
     font-family: "DIN Pro", sans-serif;
@@ -15,9 +13,10 @@ h2 {
 main,header {
     margin: 0 auto;
     max-width: 950px;
-    padding:2em;
+    padding:1em 2em 0 1em;
 }
 img.screen {
+    display: table;
     max-width: 100%;
     margin:0 auto;
 }
@@ -29,7 +28,7 @@ div.img-label {
 a,
 a:focus,
 a:visited {
-    color: #1583ce;
+    color: inherit;
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: all ease-in 200ms;
@@ -37,4 +36,12 @@ a:visited {
 a:hover {
     border-bottom-color: black;
     color: black;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin: 0.5em 0;
 }
